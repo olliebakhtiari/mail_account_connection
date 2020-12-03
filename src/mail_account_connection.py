@@ -1,7 +1,6 @@
 # Python standard.
 import email
 import imaplib
-import logging
 import os
 from datetime import date, timedelta
 from itertools import chain
@@ -10,9 +9,7 @@ from email.message import Message
 
 # Local.
 from settings import TRUSTED_SENDERS, ACCEPTED_FILETYPES
-
-logger = logging.getLogger(__name__)
-logger.setLevel('DEBUG')
+from tools.logger import *
 
 
 class MailAccountConnection:
