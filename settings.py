@@ -5,4 +5,4 @@ PASSWORD = ''
 
 # Security.
 TRUSTED_SENDERS = []
-ACCEPTED_FILETYPES = ['txt', 'pdf']
+ACCEPTED_FILETYPES = ['csv', 'CSV', 'xls']
